@@ -1,9 +1,9 @@
-extends Area2D
+extends RigidBody2D
 var speed = 500
 var direction = Vector2() 
 var width
 var height
-var GRAVITY = 40
+
 
 
 
@@ -17,5 +17,4 @@ func _process(delta):
     pass
     
 func _physics_process(delta):
-    GRAVITY *= 1.05
-    position.y += GRAVITY * delta 
+	pass
